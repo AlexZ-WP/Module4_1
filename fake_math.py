@@ -4,8 +4,11 @@ def divide_fake(first, second):
     else:
         return first / second
 
-print(divide_fake(69, 3))
-print(divide_fake(3,0))
+if __name__ == '__main__':
+    print(divide_fake(69, 3))
+    print(divide_fake(3, 0))
+
+
 
 
 # второй вариант кода при second = 0 выдаёт ошибку??? при других значениях работает
